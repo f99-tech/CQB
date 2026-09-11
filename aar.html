@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AAR Replay — Nimrod</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="aar">
+    <header class="topbar">
+      <div class="brand">AAR REPLAY</div>
+      <span class="pill" id="clock">T−0</span>
+      <div class="actions">
+        <button id="back">Back</button>
+        <button class="primary" id="play">Play</button>
+        <button id="next">Next</button>
+        <a href="index.html">Home</a>
+      </div>
+    </header>
+    <div class="aar-grid">
+      <section class="pane">
+        <p class="freeze-tag" id="freezeTag" hidden>FREEZE · DECISION</p>
+        <canvas id="map"></canvas>
+      </section>
+      <aside class="side">
+        <p class="meta" id="stepLabel">STEP 1 / 6</p>
+        <h1 id="title"></h1>
+        <p class="body" id="what"></p>
+        <div class="box warn" id="wrongBox" hidden>
+          <p class="label">WHAT WENT WRONG</p>
+          <p id="wrong"></p>
+        </div>
+        <div class="box ok" id="avoidBox" hidden>
+          <p class="label">HOW TO AVOID</p>
+          <p id="avoid"></p>
+        </div>
+        <p class="help">Training reconstruction from public sources. Does not replace live CQB. Not a method for assault.</p>
+      </aside>
+    </div>
+  </div>
+  <script src="aar.js"></script>
+</body>
+</html>
