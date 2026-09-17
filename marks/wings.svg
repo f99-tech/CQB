@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Wings mark">
+  <rect width="64" height="64" rx="8" fill="#0A1018"/>
+  <path fill="#C4A06A" d="M32 18 L36 30 H28 Z"/>
+  <path fill="#8A6A3C" d="M8 30 L28 28 L26 34 L10 36 Z"/>
+  <path fill="#8A6A3C" d="M56 30 L36 28 L38 34 L54 36 Z"/>
+  <path fill="#C4A06A" d="M14 38 L28 36 L26 42 L16 44 Z"/>
+  <path fill="#C4A06A" d="M50 38 L36 36 L38 42 L48 44 Z"/>
+  <rect x="30" y="28" width="4" height="22" rx="0.5" fill="#E8E0D0"/>
+</svg>

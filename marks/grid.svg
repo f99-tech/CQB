@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Map grid mark">
+  <rect width="64" height="64" rx="8" fill="#0A1018"/>
+  <g fill="none" stroke="#3A4A5C" stroke-width="1">
+    <path d="M16 16 H48 V48 H16 Z"/>
+    <path d="M16 27 H48 M16 37 H48 M27 16 V48 M37 16 V48"/>
+  </g>
+  <circle cx="32" cy="32" r="3.5" fill="none" stroke="#C4A06A" stroke-width="1.4"/>
+  <path stroke="#C4A06A" stroke-width="1.4" d="M32 22 V26 M32 38 V42 M22 32 H26 M38 32 H42"/>
+</svg>

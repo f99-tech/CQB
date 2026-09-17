@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unread Ground</title>
+    <meta name="theme-color" content="#08090B" />
+    <meta
+      name="description"
+      content="Classroom after-action: Unread Ground. Named historical cases. Not combat instruction."
+    />
+    <link rel="icon" type="image/svg+xml" href="/CQB/favicon.svg" />
+    <link rel="stylesheet" href="/CQB/assets/styles-DcFrZDWX.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+    />
+    <script>
+      (function () {
+        try {
+          var l = localStorage.getItem("cqb-lang");
+          if (l !== "ar" && l !== "en") {
+            l = (navigator.language || "").toLowerCase().indexOf("ar") === 0 ? "ar" : "en";
+          }
+          var r = document.documentElement;
+          r.lang = l;
+          r.dir = l === "ar" ? "rtl" : "ltr";
+          var th = localStorage.getItem("cqb-theme");
+          if (th === "light" || th === "dark") r.dataset.theme = th;
+          if (localStorage.getItem("cqb-force-login") === "1") r.dataset.classroom = "1";
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-bg text-fg antialiased">
+    <div id="app-root">
+      <p style="color:#e6e0d4;font-family:IBM Plex Sans,sans-serif;padding:2rem">Loading Unread Ground…</p>
+    </div>
+    <script type="module" src="/CQB/assets/index-DuHfFt2N.js"></script>
+  </body>
+</html>

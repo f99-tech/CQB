@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Stacked chevron mark">
+  <rect width="64" height="64" rx="8" fill="#0A1018"/>
+  <path fill="#C4A06A" d="M32 8 L56 32 H46 L32 18 L18 32 H8 Z"/>
+  <path fill="#8A6A3C" d="M32 28 L56 52 H46 L32 38 L18 52 H8 Z"/>
+</svg>
